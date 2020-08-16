@@ -31,6 +31,8 @@
    $ git add . # 将所有修改加入到舞台区
    $ git commit -m "描述" # 将修改提交
    $ git push # 将修改推到远端仓库
+   # 解决每次都需要输入密码:将密码store
+   $ git config --global credential.helper store
    ```
 
 6. 分支操作
